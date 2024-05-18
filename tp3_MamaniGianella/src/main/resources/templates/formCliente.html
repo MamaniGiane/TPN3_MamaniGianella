@@ -8,9 +8,9 @@
 </head>
 
 <body>
-	<header>
-		<h1>Gianella</h1>
-	<nav>
+	<header class="header">
+		<h1 class="h1">Formulario</h1>
+	<nav class="nav">
 		<ol>
 			<li><a href="">Inicio</a></li>
 			<li><a href="">Contenido</a></li>
@@ -19,9 +19,13 @@
 	</nav>
 	</header>
 	
+	
 	<main class="main">
-		<h1>Formulario</h1>
-		<form>
+		<div class="div">
+		
+		<h2 id="h2">Llena el siguiente formulario con tus datos</h2>
+		
+		<form class="form">
 			<label for="DNI">DNI: </label>
 			<input id="DNI" type="number" required placeholder="Ingrese el dni" name="DNI"></input><br><br>
 			<label for="nombre">Nombre: </label>
@@ -84,11 +88,21 @@
 			<input type="submit" value="Guardar">
 			<input type="button" value="Cancelar">
 		</form>
+		<p><img alt="imagen" src="/imagenes/lenguaje.png" id="img"></p>
+		</div>
+		
+		
+		
 	</main>
-	<footer>
+
+	
+	<footer class="footer">
 	<h2>Contactos</h2>
-	<p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">gmail</a></p>
-	<p><a href="https://www.facebook.com/?locale=es_LA">Facebook</a></p>
+	
+	<ol class="ol">
+	<li class="li"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">gmail</a></li>
+	<li class="li"><a href="https://www.facebook.com/?locale=es_LA">Facebook</a></li>
+	</ol>
 	
 	</footer>
 </body>
